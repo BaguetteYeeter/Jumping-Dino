@@ -79,7 +79,7 @@ while run:
     pygame.draw.rect(mainScreen, (0, 200, 0), (cactusX, cactusY, 32, 32))
 
     if score >= 100:
-        print("you fucking cheater")
+        print("100!!")
     else:
         delayTime = int(20 - int(score/5))
 
